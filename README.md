@@ -38,23 +38,28 @@ O foco foi **execução, resolução de problemas reais e entrega funcional**, n
 
 ### 1️⃣ Clonar o repositório
 ```bash
-git clone <url-do-repositorio>
+
+git clone https://github.com/SkAdr1an/helpdesk-laravel
 cd helpdesk
+
 2️⃣ Instalar dependências
 bash
 Copiar código
 composer install
 npm install
 npm run build
+
 3️⃣ Configurar ambiente
 bash
 Copiar código
 cp .env.example .env
 php artisan key:generate
+
 4️⃣ Rodar migrations
 bash
 Copiar código
 php artisan migrate
+
 5️⃣ Iniciar servidor
 bash
 Copiar código
